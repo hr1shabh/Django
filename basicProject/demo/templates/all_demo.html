@@ -2,4 +2,21 @@
 
 {% block title %}Demo{% endblock title %}
 
-{% block content %}<h1>This is the Demo page</h1>{% endblock content %}
+{% block content %}
+
+<h1>This is the Demo page</h1>
+{% for car in cars  %}
+<div>
+    <h3>{{car.name}}</h3>
+    <img src = "{{car.image.url}}">
+    <a href ="{% url 'car_details' car.id %}">
+        <button type="button">
+            {{car.type}} - {{car.id}}
+        </button>
+    </a>
+</div>
+{% endfor  %}
+
+
+{% endblock content %}
+
