@@ -3,7 +3,7 @@
 ![alt text](image-1.png)
 
 
-###Basic:
+### Basic:
 * templates - HTML and static - CSS
 * Views -> render
 * make changes in settings.py -> add templates (for HTML)
@@ -18,7 +18,7 @@
 * make migrations -> python manage.py makemigrations
 * migrate -> python manage.py migrate
 
-###Admin:
+### Admin:
 * python manage.py createsuperuser
 * python manage.py runserver    
 * admin.py -> for admin panel
