@@ -1,6 +1,6 @@
-###Basic Flow:
-![alt text](image-1.png)
+##Basic Flow:
 
+![alt text](image-1.png)
 
 * templates - HTML and static - CSS
 * Views -> render
@@ -10,11 +10,29 @@
 
 * You can make many apps, use urls to handover control. Use layouts for templating.
 
+* Models:
+* one to one -> Cars and Car Certificate
+* many to many -> Cars and Stores
+* One to many -> Cars and Reviews
+
+* make migrations -> python manage.py makemigrations
+* migrate -> python manage.py migrate
+
+* Admin:
+* python manage.py createsuperuser
+* python manage.py runserver    
+
+* admin.py -> for admin panel
+
+* Forms:
+* forms.py -> for forms and validation  
 
 
-### Commands
+### BasicCommands
 * python manage.py startapp demo -> for new apps
-* python manage.py runserver -> to run 
+* python manage.py runserver -> to run server
+
+
 
 
 
